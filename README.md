@@ -4,7 +4,16 @@
   	<img src="resources/wantwords_logo.svg" width = "300"  alt="WantWords Logo"  />
   </a>
 </p>
-<h3 align="center">An open-source online reverse dictionary </h3>
+<h3 align="center">An Open-source Online Reverse Dictionary [<a href="https://wantwords.net/">link</a>] </h3>
+
+## News
+
+The WantWords MiniProgram has been launched. Welcome to scan the following QR code to try it!
+<div align=center>
+<img src="resources/miniprogram.jpg" width = "300"  alt="MiniProgram QR code"/>
+</div>
+
+
 
 ## What Is a Reverse Dictionary?
 Opposite to a regular (forward) dictionary that provides definitions for query words, a reverse dictionary returns words semantically matching the query descriptions.
@@ -34,7 +43,12 @@ The core model of WantWords is based on our proposed **Multi-channel Reverse Dic
 </div>
 
 
+### Pre-trained Models and Data
+
+You can [download](https://cloud.tsinghua.edu.cn/d/811dcb428ed24480bc60/) and decompress the pre-trained models and data to `BASE_PATH/website_RD/` to reimplement the system.
+
 ### Key Requirements
+
 * Django==2.2.5
 * django-cors-headers==3.5.0
 * numpy==1.17.2
